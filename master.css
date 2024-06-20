@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+
+}
+.outer{
+    height: 410px;
+    width: 250px;
+    padding: 10px;
+    border-color:hsl(0, 0%, 12%) ;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: small;
+}
+
+h3{
+    font-size: large;
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden; 
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.name{
+    color: white;
+}
+
+#loc{
+    color: hsl(75, 94%, 57%);
+    font-size: x-small;
+}
+
+#about{
+    color: rgb(224, 224, 224);
+    font-size: x-small;
+}
+
+.button{
+    width: 220px;
+    height: 32px;
+    background-color: hsl(0, 0%, 20%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 7px;
+    /* margin-bottom: 10px; */
+    color: white;
+    font-size: x-small;
+    cursor: pointer;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover{
+    background-color: hsl(75, 94%, 57%);
+    transition: all 0.3s linear;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color:white ;
+}
+
+a:hover{
+    color: black;
+}
